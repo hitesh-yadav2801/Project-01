@@ -1,0 +1,17 @@
+REST API - JSON
+
+GET /users - HTML document render all users
+GET /api/users - List all users
+
+GET /api/users/1 - Get user with id 1
+GET /api/users/2 - Get user with id 2
+
+
+// Dynamic path parameters
+GET /api/users/:id - Get user with id
+
+POST /api/users - Create a new user
+
+PATCH /api/users/1 - Update user with id 1
+
+DELETE /api/users/1 - Delete user with id 1
